@@ -1,5 +1,5 @@
 python-pip:
-  pkg.uninstalled
+  pkg.removed
 
 pip:
   file.managed:
