@@ -1,4 +1,5 @@
 base:
   '*':
+    - pip
     - docker
     - datadog

@@ -4,9 +4,6 @@ software-properties-common:
 apt-transport-https:
   pkg.installed
 
-python-pip:
-  pkg.installed
-
 docker-ppa:
   pkgrepo.managed:
     - name: deb https://get.docker.io/ubuntu docker main
@@ -29,4 +26,4 @@ docker-py:
   pip.installed:
     - reload_modules: True
     - require:
-      - pkg: python-pip
+      - cmd: pip
