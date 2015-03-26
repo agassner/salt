@@ -5,7 +5,7 @@ pip:
   file.managed:
     - name: /usr/local/sbin/get-pip.py
     - source: https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py
-    - source_hash: md5=60a3d165e93999895e26b96681b65090
+    - source_hash: md5=add41078298d8111714c6b87636714f5
 
   cmd.run:
     - name: /usr/bin/python /usr/local/sbin/get-pip.py
