@@ -1,9 +1,3 @@
-software-properties-common:
-  pkg.installed
-
-apt-transport-https:
-  pkg.installed
-
 docker-ppa:
   pkgrepo.managed:
     - name: deb https://get.docker.io/ubuntu docker main
